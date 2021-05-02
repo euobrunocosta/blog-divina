@@ -1,20 +1,10 @@
-const reset = /*html*/`
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      font-family: 'Poppins', sans-serif;
-    }
-  </style>
-`
 const template = document.createElement('template');
 template.innerHTML = /*html*/`
-  ${reset}
   <style>
+    ${globalStyle}
+
     div {
-      width: 1300px;
+      max-width: ${breakPoint}rem;
       margin: 0 auto;
     }
   </style>
@@ -32,4 +22,4 @@ class Container extends HTMLElement {
   }
 }
 
-window.customElements.define('wc-container', Container);
+window.customElements.define('comp-container', Container);

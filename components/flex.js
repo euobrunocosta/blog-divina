@@ -1,7 +1,8 @@
 const templateFlex = document.createElement('template');
 templateFlex.innerHTML = /*html*/`
-  ${reset}
   <style>
+    ${globalStyle}
+    
     div {
       display: flex
     }
@@ -20,4 +21,4 @@ class Flex extends HTMLElement {
   }
 }
 
-window.customElements.define('wc-flex', Flex);
+window.customElements.define('comp-flex', Flex);

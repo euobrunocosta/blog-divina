@@ -1,12 +1,10 @@
-const templateSubHeaderSocial = document.createElement('template');
-templateSubHeaderSocial.innerHTML = /*html*/`
-  ${reset}
+const templateNavSocial = document.createElement('template');
+templateNavSocial.innerHTML = /*html*/`
   <style>
+    ${globalStyle}
+    
     section {
-      position: absolute;
-      right: 0;
-      width: 65px;
-      height: 220px;
+      height: 13.75rem;
       background-color: #146273;
       display: flex;
       flex-direction: column;
@@ -16,11 +14,11 @@ templateSubHeaderSocial.innerHTML = /*html*/`
 
     a {
       display: block;
-      width: 65px;
-      height: 23px;
+      width: 4.0625rem;
+      height: 1.4375rem;
       background: no-repeat center;
-      background-size: 23px 23px;
-      text-indent: -9999px;
+      background-size: 1.4375rem 1.4375rem;
+      text-indent: -624.9375rem;
       overflow: hidden;
     }
 
@@ -35,6 +33,12 @@ templateSubHeaderSocial.innerHTML = /*html*/`
     a.facebook {
       background-image: url('../images/icons/facebook.svg');
     }
+
+    @media screen and (max-width: ${breakPoint}rem) {
+      section {
+        display: none;
+      }
+    }
   </style>
   <section>
     <a href="#" class="instagram">Instagram</a>
@@ -43,13 +47,13 @@ templateSubHeaderSocial.innerHTML = /*html*/`
   </section>
 `
 
-class SubHeaderSocial extends HTMLElement {
+class NavSocial extends HTMLElement {
   constructor() {
     super()
 
     this.attachShadow({ mode: 'open' })
-    this.shadowRoot.appendChild(templateSubHeaderSocial.content.cloneNode(true))
+    this.shadowRoot.appendChild(templateNavSocial.content.cloneNode(true))
   }
 }
 
-window.customElements.define('sub-header-social', SubHeaderSocial);
+window.customElements.define('nav-social', NavSocial);

@@ -1,10 +1,12 @@
 const templateSliderPost = document.createElement('template');
 templateSliderPost.innerHTML = /*html*/`
-  ${reset}
   <style>
+    ${globalStyle}
+    
     div.container {
+      width: ${breakPoint}rem;
       display: flex;
-      padding: 0 150px;
+      padding: 0 9.375rem;
     }
 
     div.first a {
@@ -28,9 +30,8 @@ templateSliderPost.innerHTML = /*html*/`
     }
 
     img {
-      width: 507px;
-      height: 400px;
-      margin-right: 30px;
+      width: 31.6875rem;
+      margin-right: 1.875rem;
     }
 
     div.second img {
@@ -41,32 +42,64 @@ templateSliderPost.innerHTML = /*html*/`
     div.second div.info {
       order: 1;
       text-align: right;
-      margin-right: 30px;
+      margin-right: 1.875rem;
       display: flex;
       align-items: right;
     }
 
     h2 {
-      font-size: 30px;
+      font-size: 1.875rem;
       font-weight: 700;
       text-transform: uppercase;
-      margin-bottom: 15px;
+      margin-bottom: 0.9375rem;
     }
 
     p {
-      line-height: 22px;
-      margin-bottom: 25px;
+      line-height: 1.375rem;
+      margin-bottom: 1.5625rem;
     }
 
     a {
       width: max-content;
-      border-radius: 3px;
-      padding: 0 40px;
+      border-radius: 0.1875rem;
+      padding: 0 2.5rem;
       background-color: white;
-      line-height: 35px;
+      line-height: 2.1875rem;
       font-weight: 700;
       cursor: pointer;
       text-decoration: none;
+    }
+
+    @media screen and (max-width: ${breakPoint}rem) {
+      div.container {
+        width: 100vw;
+        flex-direction: column;
+        padding: 0 1.875rem;
+      }
+
+      div.container.second {
+        flex-direction: column-reverse;
+      }
+
+      img {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1.875rem;
+      }
+
+      div.container.second div.info {
+        text-align: unset;
+        margin: 0;
+      }
+
+      div.container.second a {
+        align-self: unset;
+      }
+
+      a {
+        width: unset;
+        text-align: center;
+      }
     }
   </style>
   <div class="container">

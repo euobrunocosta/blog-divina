@@ -4,21 +4,21 @@ templateSliderContainer.innerHTML = /*html*/`
     ${globalStyle}
     
     div.container.first {
-      background-image: url('../images/orangeV.svg'), linear-gradient(180deg, #FFA80C 50%, #FF7807 100%);
+      background-image: url('./images/orangeV.svg'), linear-gradient(180deg, #FFA80C 50%, #FF7807 100%);
       background-position: calc(50% + 33.125rem), left;
       background-size: auto 33.125rem, auto;
       background-repeat: no-repeat;
     }
 
     div.container.second {
-      background-image: url('../images/greenV.svg'), linear-gradient(180deg, #CC2E5A 50%, #B01A44 100%);
+      background-image: url('./images/greenV.svg'), linear-gradient(180deg, #CC2E5A 50%, #B01A44 100%);
       background-position: calc(50% - 33.125rem), left;
       background-size: auto 33.125rem, auto;
       background-repeat: no-repeat;
     }
 
     div.container.third {
-      background-image: url('../images/orangeV.svg'), linear-gradient(180deg, #6A52B8 50%, #4E3E9D 100%);
+      background-image: url('./images/orangeV.svg'), linear-gradient(180deg, #6A52B8 50%, #4E3E9D 100%);
       background-position: calc(50% + 33.125rem), left;
       background-size: auto 33.125rem, auto;
       background-repeat: no-repeat;
@@ -32,21 +32,21 @@ templateSliderContainer.innerHTML = /*html*/`
     }
 
     div.carousel.first {
-      background-image: url('../images/noticia.png');
+      background-image: url('./images/noticia.png');
       background-position: 1.25rem center;
       background-size: auto 30.625rem;
       background-repeat: no-repeat;
     }
 
     div.carousel.second {
-      background: url('../images/informacao.png');
+      background: url('./images/informacao.png');
       background-position: right 1.25rem center;
       background-size: auto 30.625rem;
       background-repeat: no-repeat;
     }
 
     div.carousel.third {
-      background: url('../images/saude.png');
+      background: url('./images/saude.png');
       background-position: 1.25rem center;
       background-repeat: no-repeat;
       background-size: auto 30.625rem;

@@ -40,7 +40,7 @@ templateNavMenu.innerHTML = /*html*/`
       border: none;
       text-indent: -624.9375rem;
       overflow: hidden;
-      background: transparent url('../images/icons/search.svg') no-repeat;
+      background: transparent url('./images/icons/search.svg') no-repeat;
       background-size: 1.25rem 1.25rem;
       right: 0.9375rem;
       top: 0.375rem;

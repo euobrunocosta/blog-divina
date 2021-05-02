@@ -4,7 +4,7 @@ templateFooter.innerHTML = /*html*/`
     ${globalStyle}
     
     div.top {
-      background-image:  url('../images/greenV.svg'), linear-gradient(180deg, #367A9A 0%, #126194 100%);
+      background-image:  url('./images/greenV.svg'), linear-gradient(180deg, #367A9A 0%, #126194 100%);
       background-position: calc(50% - 37.5rem), left;
       background-size: auto 16.25rem;
       background-repeat: no-repeat;
@@ -50,15 +50,15 @@ templateFooter.innerHTML = /*html*/`
     }
 
     div.contact > ul > li > a.contact__whatsapp {
-      background-image: url('../images/icons/whatsapp.svg');
+      background-image: url('./images/icons/whatsapp.svg');
     }
 
     div.contact > ul > li > a.contact__email {
-      background-image: url('../images/icons/email.svg');
+      background-image: url('./images/icons/email.svg');
     }
 
     div.contact > ul > li > a.contact__chat {
-      background-image: url('../images/icons/comment.svg');
+      background-image: url('./images/icons/comment.svg');
     }
 
     div.address {
@@ -100,7 +100,7 @@ templateFooter.innerHTML = /*html*/`
       display: block;
       min-width: 4.0625rem;
       height: 3.75rem;
-      background: url('../images/logo.png') no-repeat;
+      background: url('./images/logo.png') no-repeat;
       background-size: auto 2.5rem;
       background-position: left center;
       text-indent: -624.9375rem;

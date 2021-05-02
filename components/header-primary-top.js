@@ -19,7 +19,7 @@ templateHeaderPrimaryTop.innerHTML = /*html*/`
       width: 5.3125rem;
       height: 3.9375rem;
       display: block;   
-      background: url('../images/logo.png') no-repeat;
+      background: url('./images/logo.png') no-repeat;
       background-size: 5.3125rem 3.9375rem;
       text-indent: -624.9375rem;
       overflow: hidden;
@@ -31,7 +31,7 @@ templateHeaderPrimaryTop.innerHTML = /*html*/`
       position: absolute;
       margin-top: -32.9375rem;
       padding: 20rem 6.25rem 0 6.25rem;
-      background: url('../images/shadow.png') no-repeat;
+      background: url('./images/shadow.png') no-repeat;
     }
 
     div.info > h2 {

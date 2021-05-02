@@ -29,13 +29,13 @@ templateNavHeader.innerHTML = /*html*/`
     }
 
     a.search {
-      background-image: url('../images/icons/search.svg');
+      background-image: url('./images/icons/search.svg');
       background-size: auto 1.5rem;
       margin-top: 1.875rem;
     }
 
     a.menu {
-      background-image: url('../images/icons/hamburgerMenu.svg');
+      background-image: url('./images/icons/hamburgerMenu.svg');
       background-size: 1.875rem auto;
       margin-top: 11.875rem;
     }
@@ -66,7 +66,7 @@ templateNavHeader.innerHTML = /*html*/`
       height: 1.25rem;
       text-indent: -600rem;
       overflow: hidden;
-      background: url('../images/icons/close.svg') no-repeat;
+      background: url('./images/icons/close.svg') no-repeat;
       background-size: 1.25rem;
     }
 
@@ -85,7 +85,7 @@ templateNavHeader.innerHTML = /*html*/`
         display: block;
         min-width: 4.0625rem;
         height: 3.75rem;
-        background: url('../images/logo.png') no-repeat;
+        background: url('./images/logo.png') no-repeat;
         background-size: auto 2.5rem;
         background-position: left center;
         text-indent: -624.9375rem;
@@ -97,7 +97,7 @@ templateNavHeader.innerHTML = /*html*/`
       }
 
       a.menu {
-        background-image: url('../images/icons/hamburgerMenu.svg');
+        background-image: url('./images/icons/hamburgerMenu.svg');
         background-size: 1.875rem auto;
         margin-top: 0;
       }

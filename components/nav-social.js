@@ -23,15 +23,15 @@ templateNavSocial.innerHTML = /*html*/`
     }
 
     a.instagram {
-      background-image: url('../images/icons/instagram.svg');
+      background-image: url('./images/icons/instagram.svg');
     }
 
     a.twitter {
-      background-image: url('../images/icons/twitter.svg');
+      background-image: url('./images/icons/twitter.svg');
     }
 
     a.facebook {
-      background-image: url('../images/icons/facebook.svg');
+      background-image: url('./images/icons/facebook.svg');
     }
 
     @media screen and (max-width: ${breakPoint}rem) {

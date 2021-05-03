@@ -10,8 +10,8 @@ templateHeaderPrimaryBottom.innerHTML = /*html*/`
     p {
       margin-top: 0;
       display: inline-block;
-      width: 27.0831rem;
-      height: 16.25rem;
+      width: 21.3331rem;
+      height: 12.8125rem;
       background-color: #FF7E07;
       color: white;
       font-size: 3.1875rem;
@@ -26,7 +26,7 @@ templateHeaderPrimaryBottom.innerHTML = /*html*/`
 
     p::before {
       position: absolute;
-      margin-left: 27.1875rem;
+      margin-left: 21.3125rem;
       content: "";
       width: 0;
       height: 0;
@@ -48,12 +48,12 @@ templateHeaderPrimaryBottom.innerHTML = /*html*/`
 
     p > span {
       display: block;
-      width: 16.25rem;
+      width: 12.8125rem;
     }
 
     img {
-      width: 27.0831rem;
-      height: 16.25rem;
+      width: 21.3331rem;
+      height: 12.8125rem;
     }
 
     @media screen and (max-width: ${breakPoint}rem) {

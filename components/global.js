@@ -8,5 +8,5 @@ const globalStyle = `
   }
 `
 
-const breakPoint = 81.25
-const breakPointPX = 1300
+const breakPoint = 64
+const breakPointPX = 1024

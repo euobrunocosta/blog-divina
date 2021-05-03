@@ -4,21 +4,21 @@ templateHeaderSecondary.innerHTML = /*html*/`
     ${globalStyle}
     
     div.container {
-      width: 27.0831rem;
+      width: 21.3331rem;
     }
 
     img {
-      width: 27.0831rem;
-      height: 16.25rem;
+      width: 21.3331rem;
+      height: 12.8125rem;
       margin-bottom: -0.4375rem;
     }
 
     p {
-      height: 16.25rem;
+      height: 12.8125rem;
       background-color: #FF7E07;
       color: white;
-      font-size: 3.1875rem;
-      line-height: 3.125rem;
+      font-size: 2.8125rem;
+      line-height: 2.8125rem;
       letter-spacing: -0.1875rem;
       font-weight: 700;
       display: flex;
@@ -28,7 +28,7 @@ templateHeaderSecondary.innerHTML = /*html*/`
 
     p::before {
       position: absolute;
-      margin-top: -17.5rem;
+      margin-top: -12.8125rem;
       content: "";
       width: 0;
       height: 0;
@@ -39,7 +39,7 @@ templateHeaderSecondary.innerHTML = /*html*/`
 
     span {
       display: block;
-      width: 17.5rem;
+      width: 12.8125rem;
     }
 
     @media screen and (max-width: ${breakPoint}rem) {
@@ -77,14 +77,6 @@ class HeaderSecondary extends HTMLElement {
     this.shadowRoot.querySelector('span').innerText = this.getAttribute('title');
     this.shadowRoot.querySelector('img:first-child').src = this.getAttribute('image1');
     this.shadowRoot.querySelector('img:last-child').src = this.getAttribute('image2');
-  }
-
-  connectedCallback() {
-    
-  }
-
-  disconnectedCallback() {
-    
   }
 }
 

@@ -21,6 +21,7 @@ templateFooter.innerHTML = /*html*/`
       padding: 2.5rem 0;
       width: 18.75rem;
       color: white;
+      margin-right: 1.25rem;
     }
 
     div.contact > h3 {
@@ -171,26 +172,26 @@ templateFooter.innerHTML = /*html*/`
     <div class="top">
       <comp-container>
         <div class="top__container">
-        <div class="contact">
-          <h3>Fale conosco</h3>
-          <p>Quer Enviar uma mensagem, tirar alguma duvida ou bater um papo?</p>
-          <ul>
-            <li><a href="#" class="contact__whatsapp">Whatsapp</a></li>
-            <li><a href="#" class="contact__email">E-mail</a></li>
-            <li><a href="#" class="contact__chat">Chat</a></li>
-          </ul>
-        </div>
-        <div class="address">
-          <div class="address__info">
-            <strong>Endereço:</strong>
-            <span>Rua xxxxxxx, nº05</span>
-            <strong>Telefone:</strong>
-            <span>(83) 9 8877-8876</span>
-            <span>Saiba como chegar &rarr;</span>
+          <div class="contact">
+            <h3>Fale conosco</h3>
+            <p>Quer Enviar uma mensagem, tirar alguma duvida ou bater um papo?</p>
+            <ul>
+              <li><a href="#" class="contact__whatsapp">Whatsapp</a></li>
+              <li><a href="#" class="contact__email">E-mail</a></li>
+              <li><a href="#" class="contact__chat">Chat</a></li>
+            </ul>
           </div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1802.2872641669255!2d-35.890711774372235!3d-7.222950748028898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac1e6d0b0c9ac5%3A0xf39989a5ef86187e!2sDilis%20Game%20Studio!5e0!3m2!1sen!2sbr!4v1619348705477!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div class="address">
+            <div class="address__info">
+              <strong>Endereço:</strong>
+              <span>Rua xxxxxxx, nº05</span>
+              <strong>Telefone:</strong>
+              <span>(83) 9 8877-8876</span>
+              <span>Saiba como chegar &rarr;</span>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1802.2872641669255!2d-35.890711774372235!3d-7.222950748028898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac1e6d0b0c9ac5%3A0xf39989a5ef86187e!2sDilis%20Game%20Studio!5e0!3m2!1sen!2sbr!4v1619348705477!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
         </div>
-      </div>
       </comp-container>
     </div>
     <div class="bottom">

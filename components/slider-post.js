@@ -30,7 +30,7 @@ templateSliderPost.innerHTML = /*html*/`
     }
 
     img {
-      width: 31.6875rem;
+      width: 25rem;
       margin-right: 1.875rem;
     }
 

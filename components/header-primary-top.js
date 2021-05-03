@@ -4,8 +4,8 @@ templateHeaderPrimaryTop.innerHTML = /*html*/`
     ${globalStyle}
     
     img {
-      width: 54.1662rem;
-      height: 32.5rem;
+      width: 42.6662rem;
+      height: 25.625rem;
     }
 
     h1 {
@@ -26,11 +26,11 @@ templateHeaderPrimaryTop.innerHTML = /*html*/`
     }
 
     div.info {
-      width: 54.1662rem;
-      height: 32.5rem;
+      width: 42.6662rem;
+      height: 25.625rem;
       position: absolute;
-      margin-top: -32.9375rem;
-      padding: 20rem 6.25rem 0 6.25rem;
+      margin-top: -26.125rem;
+      padding: 15.625rem 6.25rem 0 6.25rem;
       background: url('./images/shadow.png') no-repeat;
     }
 

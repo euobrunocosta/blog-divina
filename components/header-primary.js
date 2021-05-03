@@ -4,17 +4,17 @@ templateHeaderPrimary.innerHTML = /*html*/`
     ${globalStyle}
 
     section {
-      width: 54.1662rem;
+      width: 42.6662rem;
     }
 
     div.top {
-      width: 54.1662rem;
-      height: 32.5rem;
+      width: 42.6662rem;
+      height: 25.625rem;
     }
     
     div.bottom {
-      width: 54.1662rem;
-      height: 16.25rem;
+      width: 42.6662rem;
+      height: 12.8125rem;
     }
 
     @media screen and (max-width: ${breakPoint}rem) {
